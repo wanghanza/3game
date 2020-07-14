@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var a = prompt('안 내면 진거, 가위~바위~보!');
+         b = Math.round(3*Math.random());
+         if (b == 1)
+          {alert('가위!');
+           if (a === '가위')
+              {alert('비겼네~씁쓸하구마이~')
+            } else if (a === '바위' ) {alert('유~ 윈! 축하해 축하해~');
+            } else {alert('바보야~! 내가 이겼당~ 히히')}
+
+          } else if (b == 2) {alert('바위!');
+                 if (a == '가위')
+                     {alert('내가 이겼당! 푸하하!')
+                } else if (a == '바위')
+                            {alert('비겼네.. 줸당..')
+                } else {alert('이런.. 축하한당 뭐..')}
+          } else {alert('보!');
+                 if (a == '가위') {alert('너는 천재야! 축하해~')
+                } else if (a == '바위'){alert('푸하하 바부팅이! 내가 이겼다~!')
+                } else {alert('쩝 비겼구만...')}
+          }
+      </script>
+  </body>
+</html>
